@@ -1,0 +1,17 @@
+[package]
+name = "flows"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-io.workspace = true
+
+[dependencies.flows-util]
+path = "../flows-util"
+version = "0.1.0"
+
+[dev-dependencies]
+either.workspace = true
+futures.workspace = true
